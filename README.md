@@ -1,3 +1,12 @@
+--------------------------------------------------------------------------------------------
+El proyecto lo inicie el 27 de mayo del 2024, donde algo importante es que el proyecto se creo con el comando 'npx create-next-app@latest'.
+
+
+Instale prisma con el comando 
+    -'npm i @prisma/client'
+    -'npm i -D prisma'
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -35,5 +44,3 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
---------------------------------------------------------------------------------------------
-El proyecto lo inicie el 27 de mayo del 2024, donde algo importante es que el proyecto se creo con el comando 'npx create-next-app@latest'.
