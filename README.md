@@ -1,10 +1,21 @@
---------------------------------------------------------------------------------------------
-El proyecto lo inicie el 27 de mayo del 2024, donde algo importante es que el proyecto se creo con el comando 'npx create-next-app@latest'.
+------------------------------------ 27 de mayo del 2024 ------------------------------------
+Incio del proyecto, donde algo importante es que el proyecto se creo con el comando 'npx create-next-app@latest'.
+Ademas de que se manejaron la eliminacion de archivos y acomo de los documentos.
 
-
+------------------------------------ 28 de mayo del 2024 ------------------------------------
 Instale prisma con el comando 
     -'npm i @prisma/client'
     -'npm i -D prisma'
+ 
+Creacion de la base de datos con prisma y el manejo de los archivos ts para las insercciones en las tablas que se crean mediante schema.prisma
+
+Instalar las dependencias de ts-node, con los siguientes comandos, de lo contraro no nos funciona para poder ejecutar el seed.ts y poder hacer las insercciones en la base de datos
+    - 'npm i -D ts-node'
+
+Para poder correr seed.ts tuve hacer cambios en el json y ademas ejecutar el siguiente comando:
+    - 'npx prisma db seed'
+
+
 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
