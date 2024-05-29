@@ -15,7 +15,9 @@ Instalar las dependencias de ts-node, con los siguientes comandos, de lo contrar
 Para poder correr seed.ts tuve hacer cambios en el json y ademas ejecutar el siguiente comando:
     - 'npx prisma db seed'
 
+Agrego la barra con imagenes de las categorias que se encuentran en la base de datos, ademas de crear la funcionalidad para poder extraer la informacion.
 
+Routing dinamico, se agrega a las categorias para que a travez de esto nos pueda mostrar los productos, esto se hace creando una carpeta con [] para poder servir para diferentes categorias
 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
