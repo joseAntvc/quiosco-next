@@ -15,14 +15,24 @@ Instalar las dependencias de ts-node, con los siguientes comandos, de lo contrar
 Para poder correr seed.ts tuve hacer cambios en el json y ademas ejecutar el siguiente comando:
     - 'npx prisma db seed'
 
+--> US1 <--
 Agrego la barra con imagenes de las categorias que se encuentran en la base de datos, ademas de crear la funcionalidad para poder extraer la informacion.
 
 ------------------------------------ 29 de mayo del 2024 ------------------------------------
 Routing dinamico, se agrega a las categorias para que a travez de esto nos pueda mostrar los productos, esto se hace creando una carpeta con [] para poder servir para diferentes categorias
 
 ------------------------------------ 30 de mayo del 2024 ------------------------------------
+--> US2 <--
 Creacion del componente ProductCard con el cual se generan las cartas para poder ver los productos en la pagina con un mismo formato y de una manra adecuada.
+
+--> US3 <--
 Instalacion de Zustand, que lo hice con el siguiente comando 'npm i zustand', esto sirve para poder manejar estados globales y poder solucionar lo del pedido. 
+Ya que debemos manejar en el orderSummary para el pedido al momento de manejar el boton de agregar
+Para formato de la cantida del pedido, descargue los iconos de react mediante el siguiente comando
+    - 'npm i @heroi
+cons/react'
+
+
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
