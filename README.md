@@ -17,8 +17,12 @@ Para poder correr seed.ts tuve hacer cambios en el json y ademas ejecutar el sig
 
 Agrego la barra con imagenes de las categorias que se encuentran en la base de datos, ademas de crear la funcionalidad para poder extraer la informacion.
 
+------------------------------------ 29 de mayo del 2024 ------------------------------------
 Routing dinamico, se agrega a las categorias para que a travez de esto nos pueda mostrar los productos, esto se hace creando una carpeta con [] para poder servir para diferentes categorias
 
+------------------------------------ 30 de mayo del 2024 ------------------------------------
+Creacion del componente ProductCard con el cual se generan las cartas para poder ver los productos en la pagina con un mismo formato y de una manra adecuada.
+Instalacion de Zustand, que lo hice con el siguiente comando 'npm i zustand', esto sirve para poder manejar estados globales y poder solucionar lo del pedido. 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
