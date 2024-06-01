@@ -34,7 +34,7 @@ cons/react'
 
 --> US4 <--
 Se agrego en OrderSummary una funcion para poder estar sumando todas las ordenes solicitadas y mostrarlas en pantalla
-//674
+
 ------------------------------------ 31 de mayo del 2024 ------------------------------------
 --> US5 <--
 Validacion entre el cliente y el usuario, esto nos servira para la siguiente historia de usuario, instalando zod con el siguiente comando
@@ -42,7 +42,7 @@ Validacion entre el cliente y el usuario, esto nos servira para la siguiente his
     - 'npm i react-to
 astify'
 esto va de la mano con la historia de usuario 5, ya que como lo que se hace es mardar la orden, ahora solo falta maquetar la informacion para mostrarlo a la area de cocina
-
+//683
 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
