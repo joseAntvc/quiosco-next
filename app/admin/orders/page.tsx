@@ -18,7 +18,7 @@ async function getPendingOrders(){
     return orders
 }
 
-export default async function ProductsPage() {
+export default async function OrderPage() {
     const orders = await getPendingOrders()
 
     return (

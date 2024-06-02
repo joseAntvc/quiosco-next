@@ -51,6 +51,11 @@ Para poder mostrar la notificacion, ocupe de la creacion de mas componentes para
 --> US10 <--
 Para poder validar que un pedido ya esta completo, lo uncio que debi agregar fue una accion al boton que ya se podia ver, el cual lo que hace es actulizar el pedido en la base de datos, poniendo el status como true y colocar la fecha en la que se completo dentro de la base de datos, esto se realizo en el archivo 'complete-order-action'
 
+------------------------------------ 2 de Junio del 2024 ------------------------------------
+--> US8 <--
+Agregue las funciones para poder ennlistar los productos, ademas de una barra de navegacion para que no se muestre una lista extensa, esto se logra con simples aperaciones de obtencion de datos y con ellos realizar divisiones, sumas y restas. Esto nos ayudara para poder cumplir con la historia de usuario 8, ademas de que es unna parte para la historia numero 7
+Para poder hacer que el buscador funcione, nos redirigimos a una nueva ventana en donde como parametro pasamos la palabra que esta en el buscador y se maneja la mayor parte en page de app/admin/products/search, ya que se ocupa una funccion de prisma de contains
+
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
