@@ -42,7 +42,14 @@ Validacion entre el cliente y el usuario, esto nos servira para la siguiente his
     - 'npm i react-to
 astify'
 esto va de la mano con la historia de usuario 5, ya que como lo que se hace es mardar la orden, ahora solo falta maquetar la informacion para mostrarlo a la area de cocina
-//683
+
+------------------------------------ 1 de Junio del 2024 ------------------------------------
+Para poder mostrar la notificacion, ocupe de la creacion de mas componentes para poder mostrar la informacion, pero lo importante fue acceder a base de datos para poder recuperar la informacion y mostrarla, los cuales estan en:
+    - page.tsx que esta en admin/orders
+    - Los componentes de order, orderCard
+
+--> US10 <--
+Para poder validar que un pedido ya esta completo, lo uncio que debi agregar fue una accion al boton que ya se podia ver, el cual lo que hace es actulizar el pedido en la base de datos, poniendo el status como true y colocar la fecha en la que se completo dentro de la base de datos, esto se realizo en el archivo 'complete-order-action'
 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
