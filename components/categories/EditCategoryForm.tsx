@@ -1,13 +1,12 @@
 "use client"
 
-
-import { ProductSchema } from "@/src/schema"
+import { CategorySchema } from "@/src/schema"
 import { useRouter } from "next/navigation"
 import { toast } from "react-toastify"
 import { useParams } from "next/navigation"
-import { updateProduct } from "@/actions/update-product-action"
+import { updateCategory } from "@/actions/update-category-action"
 
-export default function EditProductForm({children} : {children : React.ReactNode}) {
+export default function EditCategoryForm({children} : {children : React.ReactNode}) {
     const router = useRouter() 
     const params = useParams()
     const id = +params.id!
@@ -15,11 +14,9 @@ export default function EditProductForm({children} : {children : React.ReactNode
     const handleSubmit = async (formData: FormData) => {
         const data = {
             name: formData.get('name'),
-            price: formData.get('price'),
-            categoryId: formData.get('categoryId'),
-            image: formData.get('image')
+            slug: formData.get('slug')
         }
-        const result = ProductSchema.safeParse(data)
+        const result = CategorySchema.safeParse(data)
         if(!result.success){
             result.error.issues.forEach(issue => {
                toast.error(issue.message) 
@@ -27,15 +24,15 @@ export default function EditProductForm({children} : {children : React.ReactNode
             return
         }
 
-        const response = await updateProduct(result.data, id)
+        const response = await updateCategory(result.data, id)
         if(response?.errors){
             response.errors.forEach(issue => {
                toast.error(issue.message) 
             })
             return
         }
-        toast.success('Producto Actualizado correctamente')
-        router.push('/admin/products')
+        toast.success('Categoria Actualizada correctamente')
+        router.push('/admin/categories')
     }
 
     return (

@@ -40,3 +40,12 @@ export const ProductSchema = z.object({
         .or(z.number().min(1, {message: 'La Categoría es Obligatoria' })),
     image: z.string().min(1,{message: 'La Imagen es obligatoria'})
 })
+
+export const CategorySchema = z.object({
+    name: z.string()
+        .trim()
+        .min(1, { message: 'El Nombre de la Categoria no puede ir vacio'}),
+    slug: z.string()
+        .trim()
+        .min(1, { message: 'Se necesita slug'})
+})
