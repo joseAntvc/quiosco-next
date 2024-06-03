@@ -10,7 +10,8 @@ export default function AddCategoryForm({children} : {children : React.ReactNode
     const handleSubmit = async (formData: FormData) => {
         const data = {
             name: formData.get('name'),
-            slug: formData.get('slug')
+            slug: formData.get('slug'),
+            image: formData.get('image')
         }
         const result = CategorySchema.safeParse(data)
         if(!result.success){

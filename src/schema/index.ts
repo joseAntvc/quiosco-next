@@ -47,5 +47,6 @@ export const CategorySchema = z.object({
         .min(1, { message: 'El Nombre de la Categoria no puede ir vacio'}),
     slug: z.string()
         .trim()
-        .min(1, { message: 'Se necesita slug'})
+        .min(1, { message: 'Se necesita slug'}),
+    image: z.string().min(1,{message: 'La Imagen es obligatoria'})
 })
